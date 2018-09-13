@@ -1,0 +1,23 @@
+{
+  "name": "RESTfull-API",
+  "version": "1.0.0",
+  "description": "self_project",
+  "main": "index.js",
+  "repository": "https://github.com/vashuraghav/RESTfull-API.git",
+  "author": "Vashu Raghav <vashu@zigbeeapps.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel lib/ -d dist/",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^5.5.0",
+    "flow-bin": "^0.80.0"
+  },
+  "dependencies": {
+    "sequelize": "^4.38.1"
+  }
+}
